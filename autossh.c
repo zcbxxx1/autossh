@@ -80,7 +80,7 @@ typedef int32_t socklen_t;
 #ifdef HAVE___PROGNAME
 extern char *__progname;
 #else
-char *__progname;
+static char *__progname;
 #endif
 
 const char *rcsid = "$Id: autossh.c,v 1.91 2019/01/05 01:23:39 harding Exp $";
